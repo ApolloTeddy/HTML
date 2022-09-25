@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(25, 20, 48);
+  font-size: large;
+  color: rgb(221, 194, 194);
+}
+p {
+  margin: 0%;
+  margin-left: 2%;
+}
+h2 {
+  margin-left: 1.5%;
+  margin-bottom: 0.1%;
+  margin-top: 0.2%;
+}
+h1 {
+  color: rgba(225, 241, 248, 0.527);
+  padding-left: 3%;
+  margin-top: 0%;
+}
+#pikachu {
+  display: inline-flex;
+  margin-left: 10%;
+}
+.inline {
+  display: inline;
+}
+.inlineParagraph {
+  display:inline; 
+  vertical-align:top; 
+  margin-top:auto;
+}
+.headers {
+  color:rgba(197, 108, 96, 0.842);
+}
+.paragraphs {
+  color: rgb(170, 56, 94);
+  margin-bottom: 10%;
+}
+.hrules {
+  margin-top: 1%;
+  margin-bottom: 0%;
+  width: 100%;
+  border-color: white;
+}
+.special {
+  color: rgb(190, 100, 190);
+}
+
+/* link colors */
+
+a:link {
+  color:rgb(235, 108, 108)
+}
+a:visited {
+  color:rgb(231, 108, 235)
+}
+a:hover {
+  color:rgb(240, 164, 164)
+}
+a:active {
+  color:rgb(194, 88, 88)
+}

@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(19, 22, 44);
+  color: rgb(195, 202, 209);
+}
+
+#formula {
+  color:black;
+}
+#formula:hover {
+  color:rgb(19, 56, 94);
+}
+#formula:active {
+  color:rgb(21, 89, 156);
+}

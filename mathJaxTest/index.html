@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Azavier Allen">
+    <meta name="description" content="A quick test website for trying out MathJax">
+    <meta name="viewport" content="width=device-width">
+
+    <title>MathJax Testing</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+
+  <body text="white">
+    <h2>With MathJax, embedding math in HTML is easy as 2 lines of code!</h2>
+    <p style="display:inline-flex; margin-left: 2%">For all of you who are just dying to express your fourier series on a web page:</p>
+    <p id="formula" style="display:inline-flex; margin:0%; height: 63px; padding: 2px; background-image: url(bg.png); background-repeat: repeat-x; background-color: white; border: steelblue solid; border-radius: 10px;">\[\left. f(x)=a_0+\sum_{n=1}^{\infty}{a_ncos(ux)+b_nsin(ux)}\right|u=\frac{nx\pi}{P},\forall x\in\mathbb Z\]</p>
+  </body>
+</html>
